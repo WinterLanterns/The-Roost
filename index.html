@@ -14,7 +14,34 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Work+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- awesome fonts -->
     <link
       rel="stylesheet"
@@ -30,7 +57,9 @@
         style="background-color: #6d7f6c"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"
+          <a
+            class="navbar-brand text-uppercase fs-4 py-2 ps-2"
+            href="index.html"
             >The Roost <i class="fa-solid fa-mug-hot"></i
           ></a>
           <button
@@ -45,17 +74,66 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >About</a
+            <ul class="navbar-nav text-uppercase ms-auto">
+              <li class="nav-item dropdown bg-transparent">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="index.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
+                  Home
+                </a>
+                <ul class="dropdown-menu bg-transparent border-light">
+                  <li>
+                    <a class="dropdown-item text-light" href="#menu"
+                      >Ingredients</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="#gallery"
+                      >Gallery</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="#reviews"
+                      >Reviews</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown bg-transparent">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="index.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <ul class="dropdown-menu bg-transparent border-light">
+                  <li>
+                    <a class="dropdown-item text-light" href="#">Brewster</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="#gallery"
+                      >The Roost</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="#reviews"
+                      >Partner</a
+                    >
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contact.html"
                   >Contact</a
                 >
               </li>
@@ -65,7 +143,458 @@
       </nav>
 
       <!-- Hero page -->
+      <div
+        class="container d-flex justify-content-center align-items-center py-5 hero-row"
+      >
+        <div class="row pt-5">
+          <div
+            class="col-lg-6 col-md-12 col-sm-12 pt-5 px-auto text-lg-start text-sm-center hero-text px-5"
+          >
+            <h1 class="display-4 text-light fw-bold">THE ROOST, A CAFÉ</h1>
+            <p class="text-light px-auto fw-light">
+              The coffee may seem a tad expensive at... 200 Bells a cup, but
+              it's well worth it. One cup of the house special..Drink up... and
+              enjoy. You want the best flavor, you'll drink this at exactly
+              176.36 degrees... Piping hot's the only way.
+            </p>
+            <h4 class="text-light pb-2">Click to play Music</h4>
+
+            <figure class="wp-block-audio alignright">
+              <audio
+                controls
+                src="audio/Brewsterscafe.mp3"
+                controlsList="nodownload noplaybackrate"
+              ></audio>
+            </figure>
+          </div>
+        </div>
+      </div>
     </header>
+
+    <!-- menu -->
+    <section
+      class="sec pt-2 pb-5 h-auto"
+      style="background-color: white"
+      id="ingredients"
+    >
+      <div
+        class="container col-sm-12 d-flex justify-content-around d-flex align-items-center my-2"
+      >
+        <div class="row px-2">
+          <div class="col-12">
+            <h1
+              class="text-dark display-5 text-uppercase pt-5 mt-5 mb-3 fw-lighter text-center"
+            >
+              COFFEE INGREDIENTS
+            </h1>
+
+            <!-- divider  -->
+
+            <div class="col-12">
+              <img
+                class="my-4 mx-auto d-block"
+                src="img/title-separator.png"
+                alt=""
+              />
+            </div>
+            <div class="col-12">
+              <p class="text-center fw-light px-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              </p>
+              <p class="text-center fw-light px-2 mb-3">
+                eiusmod tempor incididunt ut labore et dolore
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid my-5 py-4 d-flex justify-content-center">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="card text-center border-0"
+              style="width: 16rem; background-color: transparent"
+            >
+              <img
+                src="img/coffeedrawing.png"
+                class="card-img-top mx-auto d-block"
+                alt="..."
+                style="width: 100px"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-uppercase">
+                  Coffee types
+                </h5>
+                <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
+                  Blend <br />
+                  Blue Mountain <br />
+                  Kilimanjaro <br />
+                  Mocha
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div
+              class="card text-center border-0"
+              style="width: 16rem; background-color: transparent"
+            >
+              <img
+                src="img/sugarcube.png"
+                class="card-img-top mx-auto d-block"
+                alt="..."
+                style="width: 100px"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-uppercase">
+                  Sugar Spoons
+                </h5>
+                <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
+                  None <br />
+                  One Spoon <br />
+                  Two Spoons <br />
+                  Three Spoons
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div
+              class="card text-center border-0"
+              style="width: 16rem; background-color: transparent"
+            >
+              <img
+                src="img/milk-drawing.png"
+                class="card-img-top mx-auto d-block"
+                alt="..."
+                style="width: 100px"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-uppercase">
+                  Amount of Milk
+                </h5>
+                <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
+                  None <br />
+                  A little bit <br />
+                  Regular <br />
+                  Lots
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div
+              class="card text-center border-0"
+              style="width: 16rem; background-color: transparent"
+            >
+              <img
+                src="img/brewstercookiedrawing.png"
+                class="card-img-top mx-auto d-block"
+                alt="..."
+                style="width: 100px"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-uppercase">
+                  Dessert (Optional)
+                </h5>
+                <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
+                  Brewster Cookie <br />
+                  Carrot Scones <br />
+                  Pumpkin Cupcake <br />
+                  Coconut Pancakes
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery -->
+    <section
+      id="gallery"
+      class="gallery sec pt-2 pb-5 h-auto"
+      style="background-color: white"
+      id="hobbies"
+    >
+      <div
+        class="container col-sm-12 d-flex justify-content-around d-flex align-items-center my-2"
+      >
+        <div class="row px-2">
+          <div class="col-12">
+            <h1
+              class="text-dark display-5 text-uppercase pt-5 mt-5 mb-3 fw-lighter text-center"
+            >
+              gallery
+            </h1>
+
+            <!-- divider  -->
+            <div class="col-12">
+              <img
+                class="my-4 mx-auto d-block"
+                src="img/title-separator.png"
+                alt=""
+              />
+            </div>
+            <div class="col-12">
+              <p class="text-center fw-light px-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              </p>
+              <p class="text-center fw-light px-2 mb-5">
+                eiusmod tempor incididunt ut labore et dolore
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container grid-container">
+        <div class="row g-4">
+          <div
+            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
+          >
+            <img
+              class="mx-auto d-block grid-img"
+              style="width: 300px"
+              src="img/blend.png"
+            />
+          </div>
+          <div
+            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
+          >
+            <img
+              class="mx-auto d-block grid-img"
+              style="width: 300px"
+              src="img/mocha.png"
+            />
+          </div>
+          <div
+            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
+          >
+            <img
+              class="mx-auto d-block grid-img"
+              style="width: 300px"
+              src="img/mug.png"
+            />
+          </div>
+          <div
+            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
+          >
+            <img
+              class="mx-auto d-block grid-img"
+              style="width: 300px"
+              src="img/brewcookie.png"
+            />
+          </div>
+          <div
+            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
+          >
+            <img
+              class="mx-auto d-block grid-img"
+              style="width: 300px"
+              src="img/carretscone.png"
+            />
+          </div>
+          <div
+            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
+          >
+            <img
+              class="mx-auto d-block grid-img"
+              style="width: 300px"
+              src="img/coffeebean.png"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review -->
+    <section
+      class="sec pt-2 pb-5 h-auto"
+      style="background-color: white"
+      id="reviews"
+    >
+      <div
+        class="container col-sm-12 d-flex justify-content-around d-flex align-items-center my-2"
+      >
+        <div class="row px-2">
+          <div class="col-12">
+            <h1
+              class="text-dark display-5 text-uppercase pt-5 mt-5 mb-3 fw-lighter text-center"
+            >
+              Reviews
+            </h1>
+
+            <!-- divider  -->
+
+            <div class="col-12">
+              <img
+                class="my-4 mx-auto d-block"
+                src="img/title-separator.png"
+                alt=""
+              />
+            </div>
+            <div class="col-12">
+              <p class="text-center fw-light px-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              </p>
+              <p class="text-center fw-light px-2 pb-3">
+                eiusmod tempor incididunt ut labore et dolore
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center mx-auto py-3">
+            <div
+              class="review-box h-auto px-5"
+              style="background-color: hsl(90, 25%, 80%)"
+            >
+              <img
+                class="review-img d-block mx-auto"
+                src="img/tomnook.png"
+                alt=""
+                style="width: 150px"
+              />
+              <h5 class="text-uppercase fs-4">Tom Nook</h5>
+              <p class="text-warning">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+              <p class="px-2 pb-5">
+                "I've never had a bad cup of coffee from Brewster. It's always
+                excellent."
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center mx-auto py-3">
+            <div
+              class="review-box h-auto px-5"
+              style="background-color: hsl(90, 25%, 80%)"
+            >
+              <img
+                class="review-img d-block mx-auto"
+                src="img/bones.png"
+                alt=""
+                style="width: 150px"
+              />
+              <h5 class="text-uppercase fs-4">Bones</h5>
+              <p class="text-warning">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+              <p class="px-2 pb-5">
+                "Nothing fills my happy battery like Brewster's coffee. I'm
+                gonna play SO MUCH later, at the Depot!"
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center mx-auto py-3">
+            <div
+              class="review-box h-auto px-5"
+              style="background-color: hsl(90, 25%, 80%)"
+            >
+              <img
+                class="review-img d-block mx-auto"
+                src="img/celestecrop.png"
+                alt=""
+                style="width: 150px"
+              />
+              <h5 class="text-uppercase fs-4">Celeste</h5>
+              <p class="text-warning">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+              <p class="px-2 pb-5">
+                "Brewster's taste in coffee is impeccable. I can never get over
+                it. 10/10"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer style="background-color: #7d8c7b">
+      <div class="container pt-5">
+        <div class="row text-light">
+          <div class="col-12">
+            <h2 class="text-uppercase text-center fw-light">The Roost, Cafe</h2>
+            <h6 class="text-center fw-light fs-6 px-5 pb-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore <br />
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo <br />
+              consequat.
+            </h6>
+            <div class="d-block text-center pb-3">
+              <a
+                class="text-center px-1 fs-5"
+                style="color: white"
+                href="https://twitter.com/home"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+
+              <a
+                class="text-center px-1 fs-5"
+                style="color: white"
+                href="https://www.instagram.com/?hl=en"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+
+              <a
+                class="text-center px-1 fs-5"
+                style="color: white"
+                href="https://www.facebook.com/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+
+              <a
+                class="text-center px-1 fs-5"
+                style="color: white"
+                href="https://hello-there.tumblr.com/hello"
+                ><i class="fa-brands fa-tumblr"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer style="background-color: #586856">
+      <div class="container py-2">
+        <div class="row">
+          <div class="col-6 text-light fw-light">
+            <h6 class="me-auto d-inline">Designed by Diana Diaz</h6>
+          </div>
+          <div class="col-6">
+            <a
+              class="float-end text-light text-decoration-none px-1"
+              href="contact.html"
+              >Contact</a
+            >
+            <a
+              class="float-end text-light text-decoration-none px-1"
+              href="about.html"
+              >About</a
+            >
+            <a
+              class="float-end text-light text-decoration-none px-1"
+              href="index.html"
+              >Home</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap -->
     <script

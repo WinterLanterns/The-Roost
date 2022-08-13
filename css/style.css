@@ -1,8 +1,83 @@
 .heroimg {
-  background: url(./img/heropagemaybe.png);
+  background: url(https://i.ibb.co/fHNb0Fg/heropagemaybe.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100vh;
   background-attachment: fixed;
+}
+
+h1,
+h5 {
+  font-family: Marcellus, sans-serif;
+  line-height: 2px;
+}
+h2,
+h3 {
+  line-height: 3rem;
+}
+
+hr {
+  border: dotted #6d806c 25px;
+  border-bottom: none;
+  width: 17%;
+  margin: 60px auto;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+.hero-row {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-row {
+    margin-top: 0px;
+    text-align: center;
+  }
+}
+.gallery {
+  background: url(https://i.ibb.co/3SdvbKC/background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.review-box {
+  border-radius: 35%;
+  color: #829a82;
+}
+.review-img {
+  position: relative;
+  bottom: 30px;
+  border: 20px solid white;
+  border-radius: 50%;
+}
+
+.star-rating {
+  line-height: 2.5rem;
+  color: #839a82;
+  position: relative;
+}
+
+.reviewicons {
+  position: relative;
+  bottom: 50px;
+  border: solid white 20px;
+  border-radius: 50%;
+}
+
+.reviewicons:hover {
+  width: 200px;
+  height: 200px;
 }
