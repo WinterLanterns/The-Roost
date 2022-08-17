@@ -52,10 +52,7 @@
   </head>
   <body>
     <header class="heroimg shadow pb-3 mb-5">
-      <nav
-        class="navbar navbar-expand-lg navbar-dark sticky-top"
-        style="background-color: #6d7f6c"
-      >
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid">
           <a
             class="navbar-brand text-uppercase fs-4 py-2 ps-2"
@@ -463,78 +460,150 @@
         </div>
       </div>
 
-      <div class="container p-5">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center mx-auto py-3">
+      <div
+        id="carouselExampleControls"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
             <div
-              class="review-box h-auto mx-auto px-5"
-              style="background-color: hsl(90, 25%, 80%)"
+              class="card mt-5 card-body"
+              style="
+                width: 18rem;
+                height: 350px;
+                border-radius: 35%;
+                border: none;
+                background-color: hsl(90, 25%, 80%);
+                color: #586855;
+              "
             >
               <img
-                class="review-img d-flex justify-content-center mx-auto"
-                src="img/tomnook.png"
-                alt=""
-                style="width: 150px"
+                src="./img/tomnook.png"
+                class="card-img-top reviewicons mx-auto"
+                alt="..."
+                style="
+                  border: solid white 19px;
+                  border-radius: 100%;
+                  width: 160px;
+                "
               />
-              <h5 class="text-uppercase fs-4">Tom Nook</h5>
-              <p class="text-warning">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                ><i class="fa-solid fa-star"></i>
-              </p>
-              <p class="px-2 pb-5">
-                "I've never had a bad cup of coffee from Brewster. It's always
-                excellent."
-              </p>
+              <div class="card-body card-info text-center">
+                <h5 class="card-title text-uppercase">Tom Nook</h5>
+                <p class="text-warning">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </p>
+                <p class="card-text">
+                  "I've never had a bad cup of coffee from Brewster. It's always
+                  excellent."
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center mx-auto py-3">
+          <div class="carousel-item">
             <div
-              class="review-box h-auto px-5"
-              style="background-color: hsl(90, 25%, 80%)"
+              class="card mt-5 card-body"
+              style="
+                width: 18rem;
+                height: 350px;
+                border-radius: 35%;
+                border: none;
+                background-color: hsl(90, 25%, 80%);
+                color: #586855;
+              "
             >
               <img
-                class="review-img d-block mx-auto"
-                src="img/bones.png"
-                alt=""
-                style="width: 150px"
+                src="./img/bones.png"
+                class="card-img-top reviewicons mx-auto"
+                alt="..."
+                style="
+                  border: solid white 19px;
+                  border-radius: 100%;
+                  width: 160px;
+                "
               />
-              <h5 class="text-uppercase fs-4">Bones</h5>
-              <p class="text-warning">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                ><i class="fa-solid fa-star"></i>
-              </p>
-              <p class="px-2 pb-5">
-                "Nothing fills my happy battery like Brewster's coffee. I'm
-                gonna play SO MUCH later, at the Depot!"
-              </p>
+              <div class="card-body card-info text-center">
+                <h5 class="card-title text-uppercase">Bones</h5>
+                <p class="text-warning">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </p>
+                <p class="card-text">
+                  "Nothing fills my happy battery like Brewster's coffee. I'm
+                  gonna play SO MUCH later, at the Depot!"
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center mx-auto py-3">
+          <div class="carousel-item">
             <div
-              class="review-box h-auto px-5"
-              style="background-color: hsl(90, 25%, 80%)"
+              class="card mt-5 card-body"
+              style="
+                width: 18rem;
+                height: 350px;
+                border-radius: 35%;
+                border: none;
+                background-color: hsl(90, 25%, 80%);
+                color: #586855;
+              "
             >
               <img
-                class="review-img d-block mx-auto"
-                src="img/celestecrop.png"
-                alt=""
-                style="width: 150px"
+                src="./img/celestecrop.png"
+                class="card-img-top reviewicons mx-auto"
+                alt="..."
+                style="
+                  border: solid white 19px;
+                  border-radius: 100%;
+                  width: 160px;
+                "
               />
-              <h5 class="text-uppercase fs-4">Celeste</h5>
-              <p class="text-warning">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                ><i class="fa-solid fa-star"></i>
-              </p>
-              <p class="px-2 pb-5">
-                "Brewster's taste in coffee is impeccable. I can never get over
-                it. 10/10"
-              </p>
+              <div class="card-body card-info text-center">
+                <h5 class="card-title">Celeste</h5>
+                <p class="text-warning">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </p>
+                <p class="card-text">
+                  "Brewster's taste in coffee is impeccable"
+                </p>
+              </div>
             </div>
           </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon ms-auto"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon me-auto"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
 
