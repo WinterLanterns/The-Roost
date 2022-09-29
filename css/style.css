@@ -1,19 +1,27 @@
 .heroimg {
   background: url(https://i.ibb.co/fHNb0Fg/heropagemaybe.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  background-attachment: fixed;
 }
+
+.heroAbout {
+  background: url(https://i.ibb.co/jW1cMGF/heroimageabout.png);
+}
+
 /* small media  */
 @media only screen and (max-width: 600px) {
   .heroimg {
     background: url(https://i.ibb.co/qyJt5wK/cafeshop.png);
-    background-size: cover;
     background-position: center;
+  }
+
+  .heroAbout {
+    background: url(https://i.ibb.co/kGfYWJW/coffeetable.jpg);
+  }
+
+  .heroimg,
+  .heroAbout {
+    background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
+    height: 110vh;
   }
   .hero-row {
     margin-top: 0px;
@@ -29,9 +37,12 @@
   }
 
   .hero-img {
-    width: 100%;
-    position: absolute;
-    bottom: 5%;
+    position: relative;
+    bottom: 17px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
     z-index: 2;
     opacity: 100%;
   }
@@ -57,6 +68,14 @@
     background-color: #6d7f6c;
     opacity: 90%;
   }
+  .heroimg,
+  .heroAbout {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+  }
 }
 
 h1,
@@ -67,13 +86,6 @@ h5 {
 h2,
 h3 {
   line-height: 3rem;
-}
-
-hr {
-  border: dotted #6d806c 25px;
-  border-bottom: none;
-  width: 17%;
-  margin: 60px auto;
 }
 
 p {
@@ -111,4 +123,11 @@ p {
 
 .card-body {
   border-radius: 55%;
+}
+
+.dots {
+  border: dotted #6d7f6c 25px;
+  border-bottom: none;
+  width: 17%;
+  margin: 60px auto;
 }
