@@ -1,3 +1,7 @@
+* {
+  overflow-x: hidden;
+}
+
 .heroimg {
   background: url(https://i.ibb.co/fHNb0Fg/heropagemaybe.png);
 }
@@ -99,6 +103,14 @@ p {
 
 .gallery {
   background: url(https://i.ibb.co/3SdvbKC/background.webp);
+}
+
+.theRoost {
+  background: url(https://i.ibb.co/hL6KtVp/woodbackground.png);
+}
+
+.gallery,
+.theRoost {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
