@@ -41,7 +41,7 @@
   }
 
   .hero-img {
-    position: relative;
+    position: absolute;
     bottom: 17px;
     left: 50%;
     transform: translate(-50%, 0);
@@ -49,6 +49,7 @@
     -webkit-transform: translate(-50%, 0);
     z-index: 2;
     opacity: 100%;
+    width: 100%;
   }
 
   nav {
