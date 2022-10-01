@@ -223,6 +223,7 @@ p {
   cursor: pointer;
   outline: none;
   border: none;
+  color: white;
 }
 
 .btn-1:hover {
