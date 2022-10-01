@@ -10,6 +10,10 @@
   background: url(https://i.ibb.co/jW1cMGF/heroimageabout.png);
 }
 
+.heroContact {
+  background: url(https://i.ibb.co/Dz1dSTx/herobackground3.png);
+}
+
 /* small media  */
 @media only screen and (max-width: 600px) {
   .heroimg {
@@ -21,6 +25,9 @@
     background: url(https://i.ibb.co/kGfYWJW/coffeetable.jpg);
   }
 
+  .heroContact {
+    background: url(https://i.ibb.co/Bs18srC/coffeess.jpg);
+  }
   .heroimg,
   .heroAbout {
     background-size: cover;
@@ -56,6 +63,13 @@
     background-color: none;
     border-bottom: white solid 1px;
   }
+
+  .contact-box {
+    display: grid;
+    grid-template-columns: repeat(, 1fr);
+    border: 1px solid black;
+    margin-bottom: 100px;
+  }
 }
 
 /* mid up media  */
@@ -76,12 +90,19 @@
     opacity: 90%;
   }
   .heroimg,
-  .heroAbout {
+  .heroAbout,
+  .heroContact {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
     background-attachment: fixed;
+  }
+  .contact-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid black;
+    margin-bottom: 100px;
   }
 }
 
@@ -145,4 +166,81 @@ p {
   border-bottom: none;
   width: 17%;
   margin: 60px auto;
+}
+
+/* contact page  */
+.contact-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-left {
+  height: 100%;
+  background: url("https://i.ibb.co/HzcMbzp/fanartbycafhune.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-right {
+}
+
+.contact-heading {
+  font-family: Marcellus, sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.field {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgba(230, 230, 230, 0.6);
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+  outline: none;
+}
+
+.area {
+  min-height: 150px;
+}
+
+.btn-1 {
+  font-family: "Poppins" sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 8px 16px;
+  font-size: 1.1rem;
+  background-color: #839a82;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.btn-1:hover {
+  background-color: #586857;
+}
+
+/* map */
+
+.map {
+  margin: 100px 50px;
+  border: 1px solid black;
+}
+
+h1 {
+  overflow: hidden;
+}
+
+.conHead {
+  position: absolute;
 }
