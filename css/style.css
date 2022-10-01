@@ -27,9 +27,11 @@
 
   .heroContact {
     background: url(https://i.ibb.co/Bs18srC/coffeess.jpg);
+    background-position: center;
   }
   .heroimg,
-  .heroAbout {
+  .heroAbout,
+  .heroContact {
     background-size: cover;
     background-repeat: no-repeat;
     height: 110vh;
