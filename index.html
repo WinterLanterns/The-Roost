@@ -1,650 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>The Roost</title>
-    <!-- CSS link  -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="./img/favicon.ico" />
-    <!-- Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Work+Sans:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>The Roost</title>
+        <!-- CSS link  -->
+        <link rel="stylesheet" href="css/style.css"/>
+        <link
+        rel="icon" href="./img/favicon.ico"/>
+        <!-- Bootstrap -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"/>
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-      rel="stylesheet"
-    />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
-      rel="stylesheet"
-    />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet"/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- awesome fonts -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
-      integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <header class="heroimg shadow pb-3 mb-5">
-      <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div class="container-fluid">
-          <a
-            class="navbar-brand text-uppercase fs-4 py-2 ps-2"
-            href="index.html"
-            >The Roost <i class="fa-solid fa-mug-hot"></i
-          ></a>
-          <button
-            class="navbar-toggler border border-light"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav text-uppercase ms-auto text-decoration-none"
-                ><li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="about.html"
-                    >About</a
-                  >
-                </li>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="contact.html"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Hero page -->
-      <div
-        class="container d-flex justify-content-center align-items-center py-5 hero-row"
-      >
-        <div class="row pt-5">
-          <div class="d-flex justify-content-center align-items-center">
-            <img
-              class="h-auto w-100 my-5 mx-auto hero-img"
-              src="./img/heroimglogo.png"
-              alt=""
-            />
-          </div>
-          <div
-            class="col-lg-6 col-md-12 col-sm-12 pt-5 text-lg-start text-sm-center hero-text"
-          >
-            <h1 class="display-4 text-light fw-bold roost">
-              THE ROOST, A CAFÉ
-            </h1>
-            <p class="text-light px-auto fw-light roost">
-              The coffee may seem a tad expensive at... 200 Bells a cup, but
-              it's well worth it. One cup of the house special..Drink up... and
-              enjoy. You want the best flavor, you'll drink this at exactly
-              176.36 degrees... Piping hot's the only way.
-            </p>
-            <h4 class="text-light pb-2 roost">Click to play Music</h4>
-
-            <div class="d-flex justify-content-center align-items-center">
-              <div class="herodivider"></div>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+        <!-- awesome fonts -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous"/>
+    </head>
+    <body>
+        <header class="heroimg shadow pb-3 mb-5">
+            <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-uppercase fs-4 py-2 ps-2" href="index.html">The Roost
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </a>
+                    <button class="navbar-toggler border border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav text-uppercase ms-auto text-decoration-none">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                            </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <figure class="wp-block-audio alignright">
-              <audio
-                controls
-                src="audio/Brewsterscafe.mp3"
-                controlsList="nodownload noplaybackrate"
-              ></audio>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </header>
+        </nav>
 
-    <!-- menu -->
-    <section
-      class="sec pt-2 pb-5 h-auto"
-      style="background-color: white"
-      id="menu"
-    >
-      <div
-        class="container col-sm-12 d-flex justify-content-around d-flex align-items-center my-2"
-      >
-        <div class="row px-2">
-          <div class="col-12">
-            <h1
-              class="text-dark display-5 text-uppercase pt-5 mt-5 mb-3 fw-lighter text-center"
-            >
-              COFFEE INGREDIENTS
+        <!-- Hero page -->
+        <div class="container d-flex justify-content-center align-items-center py-5 hero-row">
+            <div class="row pt-5">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img class="h-auto w-100 my-5 mx-auto hero-img" src="./img/heroimglogo.png" alt=""/>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 pt-5 text-lg-start text-sm-center hero-text">
+                    <h1 class="display-4 text-light fw-bold roost">
+                        THE ROOST, A CAFÉ
+                    </h1>
+                    <p class="text-light px-auto fw-light roost">
+                        The coffee may seem a tad expensive at... 200 Bells a cup, but
+                                      it's well worth it. One cup of the house special..Drink up... and
+                                      enjoy. You want the best flavor, you'll drink this at exactly
+                                      176.36 degrees... Piping hot's the only way.
+                    </p>
+                    <h4 class="text-light pb-2 roost">Click to play Music</h4>
+
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="herodivider"></div>
+                    </div>
+                    <figure class="wp-block-audio alignright">
+                        <audio controls src="audio/Brewsterscafe.mp3" controlslist="nodownload noplaybackrate"></audio>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </body>
+</html></header><!-- menu --><section class="sec pt-2 pb-5 h-auto" style="background-color: white" id="menu">
+<div class="container col-sm-12 d-flex justify-content-around d-flex align-items-center my-2">
+    <div class="row px-2">
+        <div class="col-12">
+            <h1 class="text-dark display-5 text-uppercase pt-5 mt-5 mb-3 fw-lighter text-center">
+                COFFEE INGREDIENTS
             </h1>
 
             <!-- divider  -->
 
             <div class="col-12">
-              <img
-                class="my-4 mx-auto d-block"
-                src="img/title-separator.png"
-                alt=""
-              />
+                <img class="my-4 mx-auto d-block" src="img/title-separator.png" alt=""/>
             </div>
             <div class="col-12">
-              <p class="text-center fw-light px-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              </p>
-              <p class="text-center fw-light px-2 mb-3">
-                eiusmod tempor incididunt ut labore et dolore
-              </p>
+                <p class="text-center fw-light px-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                </p>
+                <p class="text-center fw-light px-2 mb-3">
+                    eiusmod tempor incididunt ut labore et dolore
+                </p>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+</div>
 
-      <div class="container-fluid my-5 py-4 d-flex justify-content-center">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 ">
-            <div
-              class="card text-center border-0"
-              style="width: 16rem; background-color: transparent"
-            >
-              <img
-                src="img/coffeedrawing.png"
-                class="card-img-top mx-auto d-block"
-                alt="..."
-                style="width: 100px"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-dark text-uppercase">
-                  Coffee types
-                </h5>
-                <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
-                  Blend <br />
-                  Blue Mountain <br />
-                  Kilimanjaro <br />
-                  Mocha
-                </p>
-              </div>
+<div class="container-fluid my-5 py-4 d-flex justify-content-center">
+    <div class="row">
+        <div class="col-lg-3 col-md-6 ">
+            <div class="card text-center border-0" style="width: 16rem; background-color: transparent">
+                <img src="img/coffeedrawing.png" class="card-img-top mx-auto d-block" alt="..." style="width: 100px"/>
+                <div class="card-body">
+                    <h5 class="card-title text-dark text-uppercase">
+                        Coffee types
+                    </h5>
+                    <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
+                        Blend
+                        <br/>
+                        Blue Mountain
+                        <br/>
+                        Kilimanjaro
+                        <br/>
+                        Mocha
+                    </p>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div
-              class="card text-center border-0"
-              style="width: 16rem; background-color: transparent"
-            >
-              <img
-                src="img/sugarcube.png"
-                class="card-img-top mx-auto d-block"
-                alt="..."
-                style="width: 100px"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-dark text-uppercase">
-                  Sugar Spoons
-                </h5>
-                <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
-                  None <br />
-                  One Spoon <br />
-                  Two Spoons <br />
-                  Three Spoons
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div
-              class="card text-center border-0"
-              style="width: 16rem; background-color: transparent"
-            >
-              <img
-                src="img/milk-drawing.png"
-                class="card-img-top mx-auto d-block"
-                alt="..."
-                style="width: 100px"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-dark text-uppercase">
-                  Amount of Milk
-                </h5>
-                <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
-                  None <br />
-                  A little bit <br />
-                  Regular <br />
-                  Lots
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div
-              class="card text-center border-0"
-              style="width: 16rem; background-color: transparent"
-            >
-              <img
-                src="img/brewstercookiedrawing.png"
-                class="card-img-top mx-auto d-block"
-                alt="..."
-                style="width: 100px"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-dark text-uppercase">
-                  Dessert (Optional)
-                </h5>
-                <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
-                  Brewster Cookie <br />
-                  Carrot Scones <br />
-                  Pumpkin Cupcake <br />
-                  Coconut Pancakes
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- gallery -->
-    <section
-      id="gallery"
-      class="gallery sec pt-2 pb-5 h-auto"
-      style="background-color: white"
-      id="hobbies"
-    >
-      <div
-        class="container col-sm-12 d-flex justify-content-around d-flex align-items-center my-2"
-      >
-        <div class="row px-2">
-          <div class="col-12">
-            <h1
-              class="text-dark display-5 text-uppercase pt-5 mt-5 mb-3 fw-lighter text-center"
-            >
-              gallery
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center border-0" style="width: 16rem; background-color: transparent">
+                <img src="img/sugarcube.png" class="card-img-top mx-auto d-block" alt="..." style="width: 100px"/>
+                <div class="card-body">
+                    <h5 class="card-title text-dark text-uppercase">
+                        Sugar Spoons
+                    </h5>
+                    <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
+                        None
+                        <br/>
+                        One Spoon
+                        <br/>
+                        Two Spoons
+                        <br/>
+                        Three Spoons
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center border-0" style="width: 16rem; background-color: transparent">
+                <img src="img/milk-drawing.png" class="card-img-top mx-auto d-block" alt="..." style="width: 100px"/>
+                <div class="card-body">
+                    <h5 class="card-title text-dark text-uppercase">
+                        Amount of Milk
+                    </h5>
+                    <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
+                        None
+                        <br/>
+                        A little bit
+                        <br/>
+                        Regular
+                        <br/>
+                        Lots
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center border-0" style="width: 16rem; background-color: transparent">
+                <img src="img/brewstercookiedrawing.png" class="card-img-top mx-auto d-block" alt="..." style="width: 100px"/>
+                <div class="card-body">
+                    <h5 class="card-title text-dark text-uppercase">
+                        Dessert (Optional)
+                    </h5>
+                    <p class="card-text fw-light" style="color: rgb(101, 101, 101)">
+                        Brewster Cookie
+                        <br/>
+                        Carrot Scones
+                        <br/>
+                        Pumpkin Cupcake
+                        <br/>
+                        Coconut Pancakes
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></section><!-- gallery --><section id="gallery" class="gallery sec pt-2 pb-5 h-auto" style="background-color: white" id="hobbies">
+<div class="container col-sm-12 d-flex justify-content-around d-flex align-items-center my-2">
+    <div class="row px-2">
+        <div class="col-12">
+            <h1 class="text-dark display-5 text-uppercase pt-5 mt-5 mb-3 fw-lighter text-center">
+                gallery
             </h1>
 
             <!-- divider  -->
             <div class="col-12">
-              <img
-                class="my-4 mx-auto d-block"
-                src="img/title-separator.png"
-                alt=""
-              />
+                <img class="my-4 mx-auto d-block" src="img/title-separator.png" alt=""/>
             </div>
             <div class="col-12">
-              <p class="text-center fw-light px-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              </p>
-              <p class="text-center fw-light px-2 mb-5">
-                eiusmod tempor incididunt ut labore et dolore
-              </p>
+                <p class="text-center fw-light px-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                </p>
+                <p class="text-center fw-light px-2 mb-5">
+                    eiusmod tempor incididunt ut labore et dolore
+                </p>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+</div>
 
-      <div class="container grid-container">
-        <div class="row g-4">
-          <div
-            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
-          >
-            <img
-              class="mx-auto d-block grid-img img-fluid"
-              style="width: 300px"
-              src="img/blend.png"
-            />
-          </div>
-          <div
-            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
-          >
-            <img
-              class="mx-auto d-block grid-img img-fluid"
-              style="width: 300px"
-              src="img/mocha.png"
-            />
-          </div>
-          <div
-            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
-          >
-            <img
-              class="mx-auto d-block grid-img img-fluid"
-              style="width: 300px"
-              src="img/mug.png"
-            />
-          </div>
-          <div
-            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
-          >
-            <img
-              class="mx-auto d-block grid-img img-fluid"
-              style="width: 300px"
-              src="img/brewcookie.png"
-            />
-          </div>
-          <div
-            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
-          >
-            <img
-              class="mx-auto d-block grid-img img-fluid"
-              style="width: 300px"
-              src="img/carretscone.png"
-            />
-          </div>
-          <div
-            class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12"
-          >
-            <img
-              class="mx-auto d-block grid-img img-fluid"
-              style="width: 300px"
-              src="img/coffeebean.png"
-            />
-          </div>
+<div class="container grid-container">
+    <div class="row g-4">
+        <div class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12">
+            <img class="mx-auto d-block grid-img img-fluid" style="width: 300px" src="img/blend.png"/>
         </div>
-      </div>
-    </section>
-
-    <!-- Review -->
-    <section
-      class="sec pt-2 pb-5 h-auto"
-      style="background-color: white"
-      id="reviews"
-    >
-      <div
-        class="container col-sm-12 d-flex justify-content-around d-flex align-items-center my-2"
-      >
-        <div class="row px-2">
-          <div class="col-12">
-            <h1
-              class="text-dark display-5 text-uppercase pt-5 mt-5 mb-3 fw-lighter text-center"
-            >
-              Reviews
+        <div class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12">
+            <img class="mx-auto d-block grid-img img-fluid" style="width: 300px" src="img/mocha.png"/>
+        </div>
+        <div class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12">
+            <img class="mx-auto d-block grid-img img-fluid" style="width: 300px" src="img/mug.png"/>
+        </div>
+        <div class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12">
+            <img class="mx-auto d-block grid-img img-fluid" style="width: 300px" src="img/brewcookie.png"/>
+        </div>
+        <div class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12">
+            <img class="mx-auto d-block grid-img img-fluid" style="width: 300px" src="img/carretscone.png"/>
+        </div>
+        <div class="grid-item border border-dark g-3 col-lg-4 col-md-6 col-sm-12">
+            <img class="mx-auto d-block grid-img img-fluid" style="width: 300px" src="img/coffeebean.png"/>
+        </div>
+    </div>
+</div></section><!-- Review --><section class="sec pt-2 pb-5 h-auto" style="background-color: white" id="reviews">
+<div class="container col-sm-12 d-flex justify-content-around d-flex align-items-center my-2">
+    <div class="row px-2">
+        <div class="col-12">
+            <h1 class="text-dark display-5 text-uppercase pt-5 mt-5 mb-3 fw-lighter text-center">
+                Reviews
             </h1>
 
             <!-- divider  -->
 
             <div class="col-12">
-              <img
-                class="my-4 mx-auto d-block"
-                src="img/title-separator.png"
-                alt=""
-              />
+                <img class="my-4 mx-auto d-block" src="img/title-separator.png" alt=""/>
             </div>
             <div class="col-12">
-              <p class="text-center fw-light px-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              </p>
-              <p class="text-center fw-light px-2 pb-3">
-                eiusmod tempor incididunt ut labore et dolore
-              </p>
+                <p class="text-center fw-light px-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                </p>
+                <p class="text-center fw-light px-2 pb-3">
+                    eiusmod tempor incididunt ut labore et dolore
+                </p>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+</div>
 
-      <div
-        id="carouselExampleControls"
-        class="carousel carousel-dark slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div
-              class="card mt-5 card-body"
-              style="
-                width: 18rem;
-                height: 350px;
-                border-radius: 35%;
-                border: none;
-                background-color: hsl(90, 25%, 80%);
-                color: #586855;
-              "
-            >
-              <img
-                src="./img/tomnook.png"
-                class="card-img-top reviewicons mx-auto"
-                alt="..."
-                style="
-                  border: solid white 19px;
-                  border-radius: 100%;
-                  width: 160px;
-                "
-              />
-              <div class="card-body card-info text-center">
-                <h5 class="card-title text-uppercase">Tom Nook</h5>
-                <p class="text-warning">
-                  <i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i>
-                </p>
-                <p class="card-text">
-                  "I've never had a bad cup of coffee from Brewster. It's always
-                  excellent."
-                </p>
-              </div>
+<div id="carouselExampleControls mt-5" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="card mt-5 card-body" style="
+                                    width: 18rem;
+                                    height: 350px;
+                                    border-radius: 35%;
+                                    border: none;
+                                    background-color: hsl(90, 25%, 80%);
+                                    color: #586855;
+                                  ">
+                <img src="./img/tomnook.png" class="card-img-top reviewicons mx-auto" alt="..." style="
+                                      border: solid white 19px;
+                                      border-radius: 100%;
+                                      width: 160px;
+                                    "/>
+                <div class="card-body card-info text-center">
+                    <h5 class="card-title text-uppercase">Tom Nook</h5>
+                    <p class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p class="card-text">
+                        "I've never had a bad cup of coffee from Brewster. It's always
+                                          excellent."
+                    </p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <div
-              class="card mt-5 card-body"
-              style="
-                width: 18rem;
-                height: 350px;
-                border-radius: 35%;
-                border: none;
-                background-color: hsl(90, 25%, 80%);
-                color: #586855;
-              "
-            >
-              <img
-                src="./img/bones.png"
-                class="card-img-top reviewicons mx-auto"
-                alt="..."
-                style="
-                  border: solid white 19px;
-                  border-radius: 100%;
-                  width: 160px;
-                "
-              />
-              <div class="card-body card-info text-center">
-                <h5 class="card-title text-uppercase">Bones</h5>
-                <p class="text-warning">
-                  <i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i>
-                </p>
-                <p class="card-text">
-                  "Nothing fills my happy battery like Brewster's coffee. I'm
-                  gonna play SO MUCH later, at the Depot!"
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div
-              class="card mt-5 card-body"
-              style="
-                width: 18rem;
-                height: 350px;
-                border-radius: 35%;
-                border: none;
-                background-color: hsl(90, 25%, 80%);
-                color: #586855;
-              "
-            >
-              <img
-                src="./img/celestecrop.png"
-                class="card-img-top reviewicons mx-auto"
-                alt="..."
-                style="
-                  border: solid white 19px;
-                  border-radius: 100%;
-                  width: 160px;
-                "
-              />
-              <div class="card-body card-info text-center">
-                <h5 class="card-title">Celeste</h5>
-                <p class="text-warning">
-                  <i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i>
-                </p>
-                <p class="card-text">
-                  "Brewster's taste in coffee is impeccable"
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon ms-auto"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon me-auto"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-
-    <!-- footer -->
-    <footer class="my-auto" style="background-color: #7d8c7b">
-      <div class="container pt-5">
-        <div class="row text-light">
-          <div class="col-12">
+        <div class="carousel-item">
+            <div class="card mt-5 card-body" style="
+                                    width: 18rem;
+                                    height: 350px;
+                                    border-radius: 35%;
+                                    border: none;
+                                    background-color: hsl(90, 25%, 80%);
+                                    color: #586855;
+                                  ">
+                <img src="./img/bones.png" class="card-img-top reviewicons mx-auto" alt="..." style="
+                                      border: solid white 19px;
+                                      border-radius: 100%;
+                                      width: 160px;
+                                    "/>
+                <div class="card-body card-info text-center">
+                    <h5 class="card-title text-uppercase">Bones</h5>
+                    <p class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p class="card-text">
+                        "Nothing fills my happy battery like Brewster's coffee. I'm
+                                          gonna play SO MUCH later, at the Depot!"
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card mt-5 card-body" style="
+                                    width: 18rem;
+                                    height: 350px;
+                                    border-radius: 35%;
+                                    border: none;
+                                    background-color: hsl(90, 25%, 80%);
+                                    color: #586855;
+                                  ">
+                <img src="./img/celestecrop.png" class="card-img-top reviewicons mx-auto" alt="..." style="
+                                      border: solid white 19px;
+                                      border-radius: 100%;
+                                      width: 160px;
+                                    "/>
+                <div class="card-body card-info text-center">
+                    <h5 class="card-title">Celeste</h5>
+                    <p class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p class="card-text">
+                        "Brewster's taste in coffee is impeccable"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon ms-auto" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon me-auto" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div></section><!-- footer --><footer class="my-auto" style="background-color: #7d8c7b">
+<div class="container pt-5">
+    <div class="row text-light">
+        <div class="col-12">
             <h2 class="text-uppercase text-center fw-light">The Roost, Cafe</h2>
             <h6 class="text-center fw-light fs-6 px-5 pb-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore <br />
-              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo <br />
-              consequat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                              eiusmod tempor incididunt ut labore et dolore
+                <br/>
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo
+                <br/>
+                consequat.
             </h6>
             <div class="d-block text-center pb-3">
-              <a
-                class="text-center px-1 fs-5"
-                style="color: white"
-                href="https://twitter.com/home"
-                ><i class="fa-brands fa-twitter"></i
-              ></a>
+                <a class="text-center px-1 fs-5" style="color: white" href="https://twitter.com/home">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
 
-              <a
-                class="text-center px-1 fs-5"
-                style="color: white"
-                href="https://www.instagram.com/?hl=en"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
+                <a class="text-center px-1 fs-5" style="color: white" href="https://www.instagram.com/?hl=en">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
 
-              <a
-                class="text-center px-1 fs-5"
-                style="color: white"
-                href="https://www.facebook.com/"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
+                <a class="text-center px-1 fs-5" style="color: white" href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
 
-              <a
-                class="text-center px-1 fs-5"
-                style="color: white"
-                href="https://hello-there.tumblr.com/hello"
-                ><i class="fa-brands fa-tumblr"></i
-              ></a>
+                <a class="text-center px-1 fs-5" style="color: white" href="https://hello-there.tumblr.com/hello">
+                    <i class="fa-brands fa-tumblr"></i>
+                </a>
             </div>
-          </div>
         </div>
-      </div>
-    </footer>
-
-    <footer style="background-color: #586856">
-      <div class="container py-2">
-        <div class="row">
-          <div class="col-6 text-light fw-light">
+    </div>
+</div></footer><footer style="background-color: #586856">
+<div class="container py-2">
+    <div class="row">
+        <div class="col-6 text-light fw-light">
             <h6 class="me-auto d-inline">Designed by Diana Diaz</h6>
-          </div>
-          <div class="col-6">
-            <a
-              class="float-end text-light text-decoration-none px-1"
-              href="contact.html"
-              >Contact</a
-            >
-            <a
-              class="float-end text-light text-decoration-none px-1"
-              href="about.html"
-              >About</a
-            >
-            <a
-              class="float-end text-light text-decoration-none px-1"
-              href="index.html"
-              >Home</a
-            >
-          </div>
         </div>
-      </div>
-    </footer>
-
-    <!-- Bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+        <div class="col-6">
+            <a class="float-end text-light text-decoration-none px-1" href="contact.html">Contact</a>
+            <a class="float-end text-light text-decoration-none px-1" href="about.html">About</a>
+            <a class="float-end text-light text-decoration-none px-1" href="index.html">Home</a>
+        </div>
+    </div>
+</div></footer><!-- Bootstrap --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script></body></html>

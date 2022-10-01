@@ -188,9 +188,6 @@ p {
   background-size: cover;
 }
 
-.contact-right {
-}
-
 .contact-heading {
   font-family: Marcellus, sans-serif;
   text-transform: uppercase;
@@ -239,8 +236,10 @@ p {
   border: 1px solid black;
 }
 
-h1 {
-  overflow: hidden;
+h1,
+p,
+h5 {
+  overflow-y: hidden;
 }
 
 .conHead {
